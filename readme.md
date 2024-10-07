@@ -61,31 +61,24 @@ tests/test_operations.py::test_divide_by_zero PASSED                            
 ---------- coverage: platform linux, python 3.10.12-final-0 ----------
 Name                             Stmts   Miss  Cover
 ----------------------------------------------------
+
 app/__init__.py                     83     71    14%
-app/calculator/__init__.py          23      0   100%
-app/calculator/calculation.py       15      0   100%
-app/calculator/calculations.py      22      0   100%
-app/calculator/operations.py        11      0   100%
-app/commands/__init__.py            32      8    75%
-main.py                             48      4    92%
-tests/__init__.py                    0      0   100%
-tests/conftest.py                   28      3    89%
-tests/test_calculation.py           15      0   100%
-tests/test_calculations.py          31      0   100%
-tests/test_calculator.py             9      0   100%
-tests/test_commands.py              39      2    95%
+
 tests/test_main.py                  51      4    92%
+
 tests/test_operations.py            11      0   100%
 ----------------------------------------------------
+
 TOTAL                              418     92    78%
 =================================================================== 40 passed, 8 skipped in 1.80s ====================================================================
 ## (venv) mallikakasi@HOME:~/NJIT-FALL-2024/IS601-Projects/Week5/Week5_Project$ pytest --num_records=10
 ======================================================================== test session starts =========================================================================
 
-tests/test_calculation.py::test_calculation_operations[a0-b0-add-expected0] PASSED                                                                             [  0%]
-tests/test_calculation.py::test_calculation_operations[a1-b1-subtract-expected1] PASSED                                                                        [  0%]
+
 tests/test_operations.py::test_operation[a98-b98-multiply-expected98] PASSED                                                                                   [ 99%]
+
 tests/test_operations.py::test_operation[a99-b99-divide-expected99] PASSED                                                                                     [ 99%]
+
 tests/test_operations.py::test_divide_by_zero PASSED                                                                                                           [100%]
 
 ======================================================================== 230 passed in 0.81s =========================================================================
@@ -93,39 +86,70 @@ tests/test_operations.py::test_divide_by_zero PASSED                            
         Welcome to Command-Plugin based Calculator Application:    
            
 Usage of this Calculator:
+
     To start the Interactive Calculator: python main.py I 
+
     To perform the calculation from Commamd Line Type Like below:
+
        python main.py <number1> <number2> add
+
        python main.py <number1> <number2> subtract
+
        python main.py <number1> <number2> multiply
+
        python main.py <number1> <number2> divide
+
 ## (venv) mallikakasi@HOME:~/NJIT-FALL-2024/IS601-Projects/Week5/Week5_Project$ python main.py I 
 
 Option To Perform Interactive Calculation:
         
+
 Type A. To Perform Add
+
 Type S. To Perform Subtract
+
 Type M. To Perform Multiply
+
 Type D. To Perform Divide
+
 Type E. To Exit
+
 Choose an option : A
+
 Enter the first number: 2
+
 Enter the second number: 3
+
 The result of adding 2.0 + 3.0 = 5.0
+
 Type C : to Continue , Type E : to Exit  
 C
+
 Type A. To Perform Add
+
 Type S. To Perform Subtract
+
 Type M. To Perform Multiply
+
 Type D. To Perform Divide
+
 Type E. To Exit
 Choose an option : M
+
 Enter the first number: 3
+
 Enter the second number: 4
+
+
 The result of Multiplying 3.0 * 4.0 = 12.0
+
 Type C : to Continue , Type E : to Exit  
+
+
 E
 Exiting.
+
 ## (venv) mallikakasi@HOME:~/NJIT-FALL-2024/IS601-Projects/Week5/Week5_Project$ python main.py 5 6 multiply
+
 The result of 5 multiply 6 is equal to 30
 
