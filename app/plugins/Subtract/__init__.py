@@ -6,7 +6,7 @@ class SubtractCommand(Command):
         self.b = b
 
     def execute(self):
-        print(f"The result of Subtracting  {self.a} - {self.b} = {self.a - self.b}")
+        print(f"    The result of Subtracting  {self.a} - {self.b} = {self.a - self.b}")
 
 def register():
     return SubtractCommand
