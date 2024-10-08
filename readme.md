@@ -83,13 +83,16 @@ tests/test_operations.py::test_divide_by_zero PASSED                            
 
 ======================================================================== 230 passed in 0.81s =========================================================================
 ## (venv) mallikakasi@HOME:~/NJIT-FALL-2024/IS601-Projects/Week5/Week5_Project$ python main.py 
-        Welcome to Command-Plugin based Calculator Application:    
+## (venv) venvmallikakasi@HOME:~/NJIT-FALL-2024/IS601-Projects/Week5/Week5_Project$ python main.py
+ 
+      Welcome to Command-Plugin based Calculator Application:    
            
+
 Usage of this Calculator:
 
     To start the Interactive Calculator: python main.py I 
 
-    To perform the calculation from Commamd Line Type Like below:
+    To perform the calculation Using Direct Commamd Line:
 
        python main.py <number1> <number2> add
 
@@ -99,57 +102,95 @@ Usage of this Calculator:
 
        python main.py <number1> <number2> divide
 
-## (venv) mallikakasi@HOME:~/NJIT-FALL-2024/IS601-Projects/Week5/Week5_Project$ python main.py I 
 
-Option To Perform Interactive Calculation:
+(venv) venvmallikakasi@HOME:~/NJIT-FALL-2024/IS601-Projects/Week5/Week5_Project$ python main.py 2 3 add
+
+The result of 2 add 3 is equal to 5
+
+(venv) venvmallikakasi@HOME:~/NJIT-FALL-2024/IS601-Projects/Week5/Week5_Project$ python main.py 2 3 subtract
+
+The result of 2 subtract 3 is equal to -1
+
+(venv) venvmallikakasi@HOME:~/NJIT-FALL-2024/IS601-Projects/Week5/Week5_Project$ python main.py I
+
+
+Option To Perform Interative Calculation:
         
+              
+Available Calculator Commands:
+ 
 
-Type A. To Perform Add
+        Type Add : To Perform Add Operation 
 
-Type S. To Perform Subtract
+        Type Divide : To Perform Divide Operation 
 
-Type M. To Perform Multiply
+        Type Exit : To Perform Exit Operation 
 
-Type D. To Perform Divide
+        Type Greet : To Perform Greet Operation 
 
-Type E. To Exit
+        Type Menu : To Perform Menu Operation 
 
-Choose an option : A
+        Type Multiply : To Perform Multiply Operation 
 
-Enter the first number: 2
+        Type Subtract : To Perform Subtract Operation 
+ 
+Choose an option : Add
 
-Enter the second number: 3
+   Enter the first number: 23
 
-The result of adding 2.0 + 3.0 = 5.0
+   Enter the second number: 23
+
+    The result of adding 23.0 + 23.0 = 46.0
+
+ 
+Type C : to Continue , Type E : to Exit  
+
+C
+
+Choose an option : Divide
+
+   Enter the first number: 40
+
+   Enter the second number: 5
+
+    The result of Dividing 40.0 / 5.0 = 8.0
+ 
 
 Type C : to Continue , Type E : to Exit  
 C
 
-Type A. To Perform Add
+Choose an option : Greet
 
-Type S. To Perform Subtract
-
-Type M. To Perform Multiply
-
-Type D. To Perform Divide
-
-Type E. To Exit
-Choose an option : M
-
-Enter the first number: 3
-
-Enter the second number: 4
-
-
-The result of Multiplying 3.0 * 4.0 = 12.0
+     Hello! Welcome To Interactive Calculator
+ 
 
 Type C : to Continue , Type E : to Exit  
+C
 
+Choose an option : Menu
+              
+Available Calculator Commands:
+ 
 
+        Type Add : To Perform Add Operation 
+
+        Type Divide : To Perform Divide Operation 
+
+        Type Exit : To Perform Exit Operation 
+
+        Type Greet : To Perform Greet Operation 
+
+        Type Menu : To Perform Menu Operation 
+
+        Type Multiply : To Perform Multiply Operation 
+
+        Type Subtract : To Perform Subtract Operation 
+ 
+ 
+Type C : to Continue , Type E : to Exit  
 E
-Exiting.
 
-## (venv) mallikakasi@HOME:~/NJIT-FALL-2024/IS601-Projects/Week5/Week5_Project$ python main.py 5 6 multiply
+Exiting...Goodbye!!!!!
 
-The result of 5 multiply 6 is equal to 30
+(venv) venvmallikakasi@HOME:~/NJIT-FALL-2024/IS601-Projects/Week5/Week5_Project$
 
