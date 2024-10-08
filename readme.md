@@ -1,6 +1,7 @@
 ## Welcome to Command-Plugin based Calculator Application 
 
 This is the interactive Calculator that performs 
+
 Addition
 
 Subtraction
@@ -14,6 +15,18 @@ Division
 1) Interactive Mode which is implemneted using plugins
 
 2) Implementation of command pattern and REPL
+
+Added a main.py file to serve as an entry point to your program and provide command line utilities.
+
+Covers REPL and command patterns with four basic commands add, subtract, multiply and divide.
+
+Implements a menu command that prints the command dictionary and gives and example of command usage
+
+Implements a menu command to list available command and usage example.
+
+Implemented Greet and Exit Commands
+
+Uses Plugin architecture to dynamically load new plugins.
 
 ### Testing Commands:
 
