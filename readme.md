@@ -1,6 +1,7 @@
 ## Welcome to Command-Plugin based Calculator Application 
 
 This is the interactive Calculator that performs 
+
 Addition
 
 Subtraction
