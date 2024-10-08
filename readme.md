@@ -16,11 +16,9 @@ Division
 
 2) Implementation of command pattern and REPL
 
-Added a main.py file to serve as an entry point to your program and provide command line utilities.
+Added a main.py file to serve as an entry point to this program and provided command line utilities.
 
 Covers REPL and command patterns with four basic commands add, subtract, multiply and divide.
-
-Implements a menu command that prints the command dictionary and gives and example of command usage
 
 Implements a menu command to list available command and usage example.
 
