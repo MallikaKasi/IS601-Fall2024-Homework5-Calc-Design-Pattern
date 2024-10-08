@@ -44,7 +44,7 @@ def main():
         print("           ")
         print("Usage of this Calculator:")
         print("    To start the Interactive Calculator: python main.py I ")
-        print("    To perform the calculation from Commamd Line Type Like below:")
+        print("    To perform the calculation Using Direct Commamd Line:")
         print("       python main.py <number1> <number2> add")
         print("       python main.py <number1> <number2> subtract")
         print("       python main.py <number1> <number2> multiply")

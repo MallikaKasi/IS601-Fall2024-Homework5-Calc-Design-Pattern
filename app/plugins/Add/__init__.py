@@ -6,7 +6,7 @@ class AddCommand(Command):
         self.b = b
 
     def execute(self):
-        print(f"The result of adding {self.a} + {self.b} = {self.a + self.b}")
+        print(f"    The result of adding {self.a} + {self.b} = {self.a + self.b}")
 
 def register():
     return AddCommand
